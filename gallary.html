@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="site.css" rel="stylesheet">
+    
+       <title>Annapurna Resort</title> 
+    
+</head>
+
+<body style="background-color:#FFFF99">
+<div class="container-fluid">
+<div style="background-color:#FFFF66;position:fixed;overflow:auto;z-index:99;top:0px;height:30px;width:100%">
+
+<!-- 5 Star Hotel Filled icon by Icons8 -->
+
+<a href="https://icons8.com" style="padding-left:60%">
+<img class="icon icons8-5-Star-Hotel-Filled" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABpElEQVRoQ+2a4U0DMQyFv04ATAIjwASwATABjMAIMAGwAUwAI8AkwARFrtzT9VAutVU3QUn+RFe/OH5+Z/tHb0F+nSrkPQEtbV+Ftcjz4E0xZwlsafsskRPgHJD9Qgm8AB/Aqz6XtEscG2tOkSfgcoJ/Bq70t9L2rYkIUJgf64lPVWjsoLR9iCVXI1/Aj6IPgKOJQqXtWxE5BG6BO0XLfg9863Np+1avlrTUG0B2CbiGJQmUEfCge5aIFPNjDZHPxHANSLNJvlqiwHouVM4FmWvDkJ4Wu8wKmQ//Yck8W8+4P5NdulAtNZFLptTM0EWniixzpyuzD/E3SSQ1PFMqRuPl5XApEh2Y1X8nYs1YNN6tSGUNaxWOq0Y6kcAMtK1IdPFa/btrxHpRNL4Tic6w1b9bkcDm43bddtdypy3wYNuKWIsxGu8u9ujArP47EWvGovFuRQKbj9t1213LnbbAg20rEl28Vv/uYrdeFI3vRKIzbPXvVsTafDyBue+YXrbLvxU6EYMse5kjXZGuyCgDuyx2Q2Ld0GSNjD+ScXvf08GNj3x+AQSXsDOh/xLpAAAAAElFTkSuQmCC" width="30" height="30">
+</a>
+
+<a href="dcbbc" style="font-style:normal;font-weight:bold"> About Hotels |</a>
+
+
+&nbsp;&nbsp;&nbsp;
+
+<!-- Beach icon by Icons8 -->
+
+<a href="location.html">
+<img class="icon icons8-Beach" src="data:image/png;base64,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" width="30" height="30">
+
+
+
+</a>
+
+<a href="location.html" style="font-style:normal;font-weight:bold"> About Pokhara |</a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="map.html"><img class="icon icons8-Map-Marker" src="data:image/png;base64,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" width="30" height="30">
+</a>
+<a href="map.html" style="font-style:normal;font-weight:bold"> Location & Contact </a>
+
+
+
+
+
+
+</div>
+<br>
+		<div class="col-md-12" style="background-color:#0033CC" >
+		
+	<img alt="annapurna" src="images/logo.png" class="logo"><div class="row">
+	
+
+			<ul class="nav nav-tabs" style="padding-left:40%">
+				<li>
+					<a  href="home.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Home</a>
+				</li>
+				<li>
+					<a href="accomodation.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Accommodation</a>
+				</li>
+				<li >
+					<a href="dining.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Dining</a>
+				</li>
+				<li>
+					<a href="conference.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Conference</a>
+				</li>
+								<li>
+					<a href="facilities.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Facility</a>
+				</li>
+				<li>
+					<a href="pacakages.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Packages</a>
+				</li>
+				<li>
+					<a href="gallary.html" style="color:white;font-style:normal;font-weight:bold;font-size:17px">Gallery</a>
+				</li>
+			</ul>
+			</div>
+
+</div>
+<div class="clear"></div>
+<br>
+   
+   
+   
+   
+   
+
+<!--images insert-->
+<div class="row">
+							<div class="col-lg-12 column" style="background-color:#0033CC">
+								<ul class="row" id="clearfix">
+									<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/kai.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+									
+									<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/header1.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+                                     <li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/headerjay.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/legs.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/prep.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/sanugurung.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+
+<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/new.jpg" alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+<li class ="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+										<img src="images/bbb.jpg"alt="" class="img-responsive" id="imgfit">
+										
+									</li>
+
+									
+					
+												
+								</ul>
+							
+							
+							</div>
+							
+							
+			<!--light box-->
+      
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+
+
+
+<script>
+
+ $(document).ready(function(){
+           $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+           });  
+        })
+
+</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" style="background-color:#FFFF99">
+		<div class="col-md-4">
+			<a href="images/g1.jpg">
+			<img class="image" alt="deluxe" src="images/g1.jpg"></a>
+			<br><br><br><br>
+
+		</div>
+
+		<div class="col-md-4">
+<a href="images/g2.jpg">
+			<img class="image" alt="deluxe" src="images/g2.jpg"></a>
+<br><br><br><br>
+
+		</div>
+
+		<div class="col-md-4">
+<a href="images/g3.jpg">
+			<img class="image" alt="royal" src="images/g3.jpg"></a>
+<br><br><br><br>
+
+
+		</div>
+
+<div class="col-md-4">
+			<a href="images/g4.jpg">
+			<img class="image" alt="honeymoon" src="images/g4.jpg"></a>
+<br><br>
+
+		</div>
+<div class="col-md-4">
+			<a href="images/g6.png">
+			<img class="image" alt="landmark" src="images/rsz_g6.jpg"></a>
+<br><br>
+
+		</div>
+				
+<div class="col-md-4">
+			<a href="images/g7.jpg">
+			<img class="image" alt="landmark" src="images/rsz_g7.jpg"></a>
+<br><br>
+
+		</div>
+
+
+	</div>
+
+</div>
+
+
+
+<div class="footer">
+`<div class="footer" id="box1">
+			<h2>
+				City Office
+			</h2>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sinamangal, Kathmandu,Nepal
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;<img class="icon icons8-Phone" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACfElEQVRoQ+2ZjzEEMRSHf1cBKkAFqAAdUAEqQAWoABXQASpABagAFaAC5jMXs7eXzb5k95K9GZnZGTNedn9f3p+85Eaa8zGac/36ByjtwZAH1iUtGAS+SPo02M3ExAeA8BtJK8YvPkvaMNr2buYDeI0Q7wRtS3roXZ3hhT6Ab8O8usmgAIhnS+xXIY4lXSSAd57i8wChsBn55jtJO5FzejH3AVxL2ot8O15bipzTi7kP4FTSScLbqURUpKzDB7Al6T5BRZE88AEsSvpIAHiTtJowr9OUpp2YUFhLeHP2MGoCoCQeJgBk3w+aACiJtBMx410SbUjWvijUzMVsaF+SSP5BVCG36tb9oJh4hLa100+GGMoe91VNbSeytrbiQBKeKjbaAELJXPQc4FasDQC70J6wK+m22PK35IDTFWotqFRsXuzCRYbFAwgL5QIeIpGz1v+YEMKW8zFHzaZBIpPQ2YfVAwg7knQeUDiYbjS0ioMrqzEecKFEzIfOzFn3hlgAICyNHqe6M0NCcPa4GvdRlOPL2H4qBQBd++MPhzSS2ORFU3VCPCc/OtjqwB4vE67u78bbv1QAPmhp9hBCSNW71CbxoQVhr2HjnHhXFwArBHbVkEoR78Cmrm+6AsRAsIKAUI7rYWNIl1+Tx3G+/Nn3AeBWOOUqxirc2c0MwJrYsYLr9jMF4GOEBuVwuavShvkzB+C7JCmxnnKr0cadBcCJoA2n1PbpjawADoSqg0dir+x93igC4MIKEJ4uIMUAqqtJGwJIytXlIAAcDIckGkMe6w8qU2eOvjaytuph+T9JTxnmAa7+My8NHbAT5+8hAVggp2z+AZKWrcdJc++BH4yIaTFdKyX1AAAAAElFTkSuQmCC" width="20" height="20">
+
+			977 12525365895/ 6589658
+			<br>
+			
+<img class="icon icons8-Address-Book" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD1ElEQVRoQ+1aTUhUURQ+d6aNkhUKpZlooIaLaHRhhFQSQY4IBcFsjdoY/altAls61cqfENLA0GWWUCRRUEKFGi50qoXguBhJsQLFGnEWiTe+O97pNrz3xtF5VyfmwDAz99377vnO+c7PmzuMklxYkutPKQBb7UFLD7iyWwvI4Wwl4i7GWAGULc8v0qMzpwAn7nNw1tD50R0w29QUgFDe6RhnxPaoi7UBWNuUE190rLJSMxDmAPa3P2OMnY1GrhvA2v7Pu4bd54y8YAqgNPf+IhHt3hYAOAW6RtwH4wXAjRZskQeoa9htaGwrD6QAJDJdpTwgrZmKgQ3ySjuFsrLT6JQnn/KKdlFWTpp4LQdXaMb/i5aXftPIy1n69OHHuuFoA3CgKIM810uouCwzpnLzcyHq9X6hyfGFmHO1ACguzaS6u2WUnrFDKAQr4wVF57+FCF6BJ45V55LrxD5K2xmeBxCYZyW2A4Dlb/dUCB1m/EHq8X4W72YC5W92HCWsgzRfGLKcbysAKAPlYV1Yurl2iEJLKzFpIdb1VgjPTI4tUMu1UdM1tgKouVRINRcLxeYtV0f/4TRohWDOykkX1+fnlmmwbzoyB3SqbTpsuFZFYxsAWNH7tFLwHlnlwa2xyL5Q3HOjxNCqfe0TAgik9fVpEQ/4jnEjsQ2AakEoL1PjkeN76fK9MqELxl50+wVV5NjAoyka6J4S1zGG+chG8KBWAHJzcL7hzJvI3t7+k0JhxETT+XdiHHRq7CgXn1UAkoKoE41Vf++hhUJSUdV6qvXVFGkWK+p4XcUrfR4Ab8HfaIsiKEGt6KDedgDMKAGa4BoEtJIpFQGNwIaoeV8CVukW7QZbgng9AFRKqMDUcUlDVGNQTlsQm1FIVVTWBTXdQkEJQDWCVUthiwegSOdQlTCYGsQq17/6g+R7/130PnlrbQPm97VNiAwFWqGCo+0ArczENgBGfIe17/RXRpo1qRTqASwumzg5DiAtV0YFIO0A1EKm5nbUAHgCbTW6UdmZYtxTXyKauFBwRXgORS5W72SbB6KtHaurNDVxjAu2AcC+auFCNR3o9tPgk3CfkyixFQCUVKmE76ANghdBjA4U3SiC9RDqAwt3rfGI7QCkJ8Bv8NxKrHoe7UFstCG8gWyDB3r5xCVTLdLl28cBy4yjrZDFQ4HNztVCoc0qabU+BUBaJ5l+Wtw2Bxyc8+mHI9XijC5a/t8jJhzyMafTF33MpJtCnNNPBydX3Id8cFX4mNXRxoi5iJF4lNIFALRhjPnYKtVv6JjVzpSYyHun/mqQSGtu5F5J74E/f0Q+T7O7LBMAAAAASUVORK5CYII=" width="20" height="20">
+			
+
+			resv@annapurna.com.np
+	</div>
+	
+	
+
+	<div class="footer" id="box1">
+	
+
+			<!-- Facebook icon by Icons8 -->
+
+<a href="https://facebook.com"><img class="icon icons8-Facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABqElEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMOhjwDZgWwATw798BkZGB7o69v//A/8YmCYe3uC1AZ+9eJOQfcDW+QyMDAl0dTiaZf//MzQe2uDdgMsNOD0ADnnG/+sH0vEwu//+/+d4ZIPvAWxuwekBu8CtBxgZGOwHgwf+MzAcPLTeG2sSxukB+8Ct/weD42FuOLjeG6tbRz1Ar1gaNDHg4SjD4O4ozWCoI4zhd4egbTjDY1B4oKXCmMHGTBynIwe1B0AhX5GrhzfFDWoPTGi2YDDQFhq6HjiwzgvD8TUdZxmOnHpJVDkw4HkAmwfwJRl0X416gKh4xqNoSMYANkfj8uOXb38YfGJ2Da56gBQPXLj6jqGg9sTQ9cCaLQ8Ypsy7NnQ9sGDlbQYQxgVGS6ERWQohe3pIFqOjHkAKgdFMPJqJsTSnR1ujDAy45weoPS40WowO9MDWaAyQGgNDfnB3yA+vgyouu4AtCxgZGeMprcQo0U/2BAfMUpuAzQ5MjEwN9J4rAM0J/Pv/rwHXxAbMfaOzlJQkD2roHY0BaoQiJWaMxgAloUcNvQDVMwpAikLd1gAAAABJRU5ErkJggg==" style="padding-top:10%;width:48; height:48">
+</a>
+
+
+
+           <!-- Twitter icon by Icons8 -->
+
+<a href="https://www.twitter.com"><img class="icon icons8-Twitter" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADTklEQVRoQ+1Y3VHbQBD+9kTMZCwGdxB3EFEBTgWBFwxPmAowFQAVxB3gPGH7BaeCKBXEqQDTAYwFCZm528yd+XGwJZ1OAoYZ6VXan+/bb/f2RHjjD73x/FECeO0KlhUoK5CTgVJCOQnMbf6yFTj9XRdC7gNoEBDo7BkYAQhVpXqMTbqcQzSIAmz5+puFTzqA00kDOythXqpE//qQwEdxfhh8SUQHcsvv4oxruL1Z98BtJlyopt9yA3DGNfE3OgfTUG37e64gRC86IUJsEv/5ZYQgNKbV4StV8esLK3NnlFyB00nDE/TdOGN0XUB4g6gFxklW8CZ5ogbeVcf4EwVxKkgEIPqTIwIdPgbnoaz4e0mMPE1U9KJzItSzAgB4CKYaE68ZIDF9kBGAqcRYMe9Z9cUgCjzGz+zJP1pI0Caa1aFbD8xIaN4BD6VaOsDO+3Gcc1f5POg/gfn7mMk9MG3iMYFW41nkoWTRxXb125x85iRoX4s05u0AABC9qEMEPbsTHzMGgZCZQiW8ESCvPD3rHRpYB5KKP9nINP0c0FW4vR4R4UMaiCLfFwOgf73hgVel8n4IkkMifCwyySRfkrCWdAJbSUj0ojYRvrxU0rNxZNNPVweQcqUsYAy6gGfGL7Xtm10p7UlF6fUnIUDraY6KfM/A16T9ZzZWKgC8QhVsR6gGkg4AQJ4DKWtlzA7UXKnZ2lkBMM5MJbjz3HJi8LFqrsSu3U+B2QPQ9wJviQXLDQLatgxl+c6wr5aCpPXEGcD8ZpolNbtvs7Jv3QMmvNVeZJfooq+YcaGWq0GWVT0bgLs+EMxh8nLnBsJ2dXCW0IPh9GJ+RMCuW6rzVi7Sufdi38RP4w6iQCj9d4EbIPrsCibLobUohjuA6aq9D2J97bSe27NJ5E0+ew/cRff60S4D7ft/Oy7s55GN3SqhfyjBe7iJCVYNggrY/JRyY1wHNtOGuWVzWbEhJl5C07GpD6x2EVNHH1IAOqrid7KOyiQg6T2gpw7JDQAtlwuNZtwkvlztFpm42xTS+xAQMJvpU2em+uxVU7NMwIiZRiQwktILs6wFNpLJfw64RHlGm3QJPWPwIlyXAIpgMY+PsgJ52CvCtqxAESzm8VFWIA97Rdj+A7EwUUCG28orAAAAAElFTkSuQmCC" style="padding-top:10%;width:48; height:48">
+</a>
+
+	
+	
+	
+	
+	
+	<!-- Google Plus icon by Icons8 -->
+	<a href="http://www.gmail.com.">
+<img class="icon icons8-Google-Plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC30lEQVRoQ+2ZPVATURSFv+2ZkRIqwwzWhp7wU2IjzEhaAWshlqQxabTlp0/SUxgbLEkkPem1oNNOmMF6ncPLG5mwb13ZZ7Jx9jaZgff2nXPvuT9vN2DCLZhw/OQExh3BPAKZj0BYYp2QPQJWRgo2pEPAYXBOO+7cWAmFJZrA1kiBDx8WUg961FwYnARuPQ8fxgreHh6yGvToRGFxE1i8DeFyRgh0g160hOMiEGYC/ABEcB7ds3ICo4pSHgGnp4srsPYS9DtbuL+s34VGDfqRRSRxAP1HYGoa9pswOwfVdfh+CfNFqLZg/incXMHuKnztJwYZ27C8J/G7Niw+h/KcAW9tpgCNPkw9gi99eLWQQQLydOMCbq7h2fR9gK8PYHPP/F1RSCkfPcavhLZrsP3WAFyKqMTKh6Mz8//jN3BykDoK/47AsIQs1M+DPljdgF7sPJaInF8Ca1smgWXNOjQjZi0RkMTKBZPQUWZJRkVxaL1fAnq4EtVVbSzB99vwqeX28FgJqNqoZBaXjYePKvDtEkrrUK5AEumMlYD1qxL2SRFEyFYel6y0x4J2xcUhJ/8SGgZwt/JMJAF15tMfv2lpfGjV4ytMJiSkpqZkloSkf8nJmhJYieyysRLYrMCLPfh5DedtuBgMa4qEklujhOzkEI4rGSqjAnh4Zjzt6rJac9QxkZHtLKQe6vwlsZ1zeh/NFOoykVCvmHlsZBTXDxL0Yn8ETq+MPOIqjQVkZyYPA50/AjbxdFHZ/cO7rv3WoLHFjBMJvK8l/ggIlG5gsjhpqDppIlWepJSPXwLSti4zGiFkurQIoH6tqZwubZjxwsMk6peABamBTUDlaSWqTNOnLi8qqSLlmkITyubuMn8SesDhPrbkBHx4Mc0z/j4C/8HL3cl+va5whyV0HxwU/TQCSLH3oR847JHh4u17+drIvxWEdHWu68OGxZd/pUwhDi9b8wh4cWOKh+QRSOE8L1t/AR5fMUDBTdheAAAAAElFTkSuQmCC" style="padding-top:10%;width:48; height:48">
+	
+	</a>
+	
+	
+	<!-- Instagram icon by Icons8 -->
+<a href="http://www.instagram.com">
+<img class="icon icons8-Instagram" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAECUlEQVRoQ+2Za0iTYRTH/7NyWyuNUrPSZWEaVAbVrMjSIGJdKMmUCiK7QNCF+hBd6OJrfTAk6AJJH4qMbmaaFYqjD+Wiq0qQftGytGVpagNN3bTmE8/zNnP17nXv2tykPV/G3Puc5/875zznHDcZBvmSDXL98AF4OoK+CHh9BIqXxx0Jt5A9064hiIo9VRXINGdV3mKv6x4lu4WBEJTISM/ZjPwHd8UOEE2hg8nay0eMxlRqQJUzjNkZKACraEKQfjJPx9mDsAtwKGlpIvz8Cg4bjWyvpwDo2YRg8ck8XYkQhH2AZC3dEO9ugKcVbwWduyBmSt+/6zNu6xKkAhC6wUsAkHFbJ+hssQj4ABwpTw6mkC8CbqtCgz4CjqQZfcbpSxxRW4/r30yC57TO3Y7lpoc2n02KjsKsBfMxXh2Gcepw9lmD4SM+G+rx6ulz1Fa/cVSzzXNOA9gLsdW6tV6PU4dhxboUTJ4aJSrwfdUbFOXkosFQLwlEMgAp51gZvZz/Gtl3KgQPS10Tg81JMwH5aCBcCwzxR3tHJ3KK9NCXVuJt3Se2b0rEBMTHzsD6FQlQqZSApRv4qAO6+C7vyJLN4aT1AStAv8b7iC969BKnswvQ3iGcciNUShzbtQGLNDGSIdwHoNYCylBQ8SfO32C8cuVwBASFYJhcwd5/7zKjraUJXaZO9j7zwFYeorORj4QDyz0Aw0NZ6tC0SdxxnHl+dtwSLFy6Gv5yBZ7rdah7V9Urr7WlCW1fm0EjcS8rjU8nCkBB+lnuAQiNAwIjcTG3GBdzdczze7lzGBkwislpaW5A/vULNtKaDLUsEttStNiWsgxorQEan/SnH+4BiFjFLvDGfZnswgaHTcSW3UdFAcwd7Wiu/8Au9tVT+/mLXHffQwDR7H8dzFu7h71OiIzG5KjpmD0vAXK5Es/0xTYpRJ+xWCz4XMOn1Yu8s7zw6mzvAfAbMlRUTI/lBz7VVHsJgEAKKVQjRAG8K4UELnGIepIogHdd4t4yakLijnRWRgPGBCMwKEQQom8ZvZuVxsqpZ8solfmrkelLK3Ag8xITzhrZmGD4K/hG1m02s/r/VyMzNQIGTzYypvb3HFT48CXOXBEfJY7u3ID4WG8aJf6AoGl0s7AEj8tsh7lFmhlYvzKBTxuvGuas2U4jMTaWzUWii6bNl1JJkyi1555OLKSUXuyASEAxmk8vumi3NRuBthqH5h4hswMH0G9Pde4BH4BzfnPdrv8wAmVcCWSId50P/8ESgV6m4aR9uUvKuUQABf9wrOu2EiyWaThpX6/T00k5Rwf1Ta5T4oQlgnSZhpP+A4f1KFLGQscNeDoR6Om59jxv1ef7ldKJpHDpFl8EXOpOJ4z5IuCE01y65Sdd0DhPc8QFIwAAAABJRU5ErkJggg==" style="padding-top:10%;width:48; height:48">
+
+	
+</div>		
+	<div class="footer" style="width:33.33%;
+	float:left;
+	height:180px;
+	text-align:center;
+	color:white;
+>
+				<h2>
+				The Annapurna Resort & Spa
+			</h2>
+			KumariPati,Pokhara 16
+			<br>
+			&nbsp;&nbsp; <img class="icon icons8-Phone" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACfElEQVRoQ+2ZjzEEMRSHf1cBKkAFqAAdUAEqQAWoABXQASpABagAFaAC5jMXs7eXzb5k95K9GZnZGTNedn9f3p+85Eaa8zGac/36ByjtwZAH1iUtGAS+SPo02M3ExAeA8BtJK8YvPkvaMNr2buYDeI0Q7wRtS3roXZ3hhT6Ab8O8usmgAIhnS+xXIY4lXSSAd57i8wChsBn55jtJO5FzejH3AVxL2ot8O15bipzTi7kP4FTSScLbqURUpKzDB7Al6T5BRZE88AEsSvpIAHiTtJowr9OUpp2YUFhLeHP2MGoCoCQeJgBk3w+aACiJtBMx410SbUjWvijUzMVsaF+SSP5BVCG36tb9oJh4hLa100+GGMoe91VNbSeytrbiQBKeKjbaAELJXPQc4FasDQC70J6wK+m22PK35IDTFWotqFRsXuzCRYbFAwgL5QIeIpGz1v+YEMKW8zFHzaZBIpPQ2YfVAwg7knQeUDiYbjS0ioMrqzEecKFEzIfOzFn3hlgAICyNHqe6M0NCcPa4GvdRlOPL2H4qBQBd++MPhzSS2ORFU3VCPCc/OtjqwB4vE67u78bbv1QAPmhp9hBCSNW71CbxoQVhr2HjnHhXFwArBHbVkEoR78Cmrm+6AsRAsIKAUI7rYWNIl1+Tx3G+/Nn3AeBWOOUqxirc2c0MwJrYsYLr9jMF4GOEBuVwuavShvkzB+C7JCmxnnKr0cadBcCJoA2n1PbpjawADoSqg0dir+x93igC4MIKEJ4uIMUAqqtJGwJIytXlIAAcDIckGkMe6w8qU2eOvjaytuph+T9JTxnmAa7+My8NHbAT5+8hAVggp2z+AZKWrcdJc++BH4yIaTFdKyX1AAAAAElFTkSuQmCC" width="20" height="20">
+			977 9814352565,123859
+			<br>
+			
+<img class="icon icons8-Address-Book" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD1ElEQVRoQ+1aTUhUURQ+d6aNkhUKpZlooIaLaHRhhFQSQY4IBcFsjdoY/altAls61cqfENLA0GWWUCRRUEKFGi50qoXguBhJsQLFGnEWiTe+O97pNrz3xtF5VyfmwDAz99377vnO+c7PmzuMklxYkutPKQBb7UFLD7iyWwvI4Wwl4i7GWAGULc8v0qMzpwAn7nNw1tD50R0w29QUgFDe6RhnxPaoi7UBWNuUE190rLJSMxDmAPa3P2OMnY1GrhvA2v7Pu4bd54y8YAqgNPf+IhHt3hYAOAW6RtwH4wXAjRZskQeoa9htaGwrD6QAJDJdpTwgrZmKgQ3ySjuFsrLT6JQnn/KKdlFWTpp4LQdXaMb/i5aXftPIy1n69OHHuuFoA3CgKIM810uouCwzpnLzcyHq9X6hyfGFmHO1ACguzaS6u2WUnrFDKAQr4wVF57+FCF6BJ45V55LrxD5K2xmeBxCYZyW2A4Dlb/dUCB1m/EHq8X4W72YC5W92HCWsgzRfGLKcbysAKAPlYV1Yurl2iEJLKzFpIdb1VgjPTI4tUMu1UdM1tgKouVRINRcLxeYtV0f/4TRohWDOykkX1+fnlmmwbzoyB3SqbTpsuFZFYxsAWNH7tFLwHlnlwa2xyL5Q3HOjxNCqfe0TAgik9fVpEQ/4jnEjsQ2AakEoL1PjkeN76fK9MqELxl50+wVV5NjAoyka6J4S1zGG+chG8KBWAHJzcL7hzJvI3t7+k0JhxETT+XdiHHRq7CgXn1UAkoKoE41Vf++hhUJSUdV6qvXVFGkWK+p4XcUrfR4Ab8HfaIsiKEGt6KDedgDMKAGa4BoEtJIpFQGNwIaoeV8CVukW7QZbgng9AFRKqMDUcUlDVGNQTlsQm1FIVVTWBTXdQkEJQDWCVUthiwegSOdQlTCYGsQq17/6g+R7/130PnlrbQPm97VNiAwFWqGCo+0ArczENgBGfIe17/RXRpo1qRTqASwumzg5DiAtV0YFIO0A1EKm5nbUAHgCbTW6UdmZYtxTXyKauFBwRXgORS5W72SbB6KtHaurNDVxjAu2AcC+auFCNR3o9tPgk3CfkyixFQCUVKmE76ANghdBjA4U3SiC9RDqAwt3rfGI7QCkJ8Bv8NxKrHoe7UFstCG8gWyDB3r5xCVTLdLl28cBy4yjrZDFQ4HNztVCoc0qabU+BUBaJ5l+Wtw2Bxyc8+mHI9XijC5a/t8jJhzyMafTF33MpJtCnNNPBydX3Id8cFX4mNXRxoi5iJF4lNIFALRhjPnYKtVv6JjVzpSYyHun/mqQSGtu5F5J74E/f0Q+T7O7LBMAAAAASUVORK5CYII=" width="20" height="20">
+			
+
+			info@annapurna.com.np					</div>
+</div>
+	
+
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+ </body></html>
